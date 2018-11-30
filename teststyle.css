@@ -1,0 +1,43 @@
+html {
+  background: white url("./images/flowers.jpg") no-repeat fixed center;
+}
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.beeClass {
+  position: fixed;
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: blue;
+  background-color: black; */
+  height: 85px;
+  width: 85px;
+}
+
+#bee {
+  background-image: url("./images/myBee2.gif");
+  background-size: 75px 65px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+.roseClass {
+  position: absolute;
+  height: 525px;
+  width: 455px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0;
+  padding: 0;
+  top: 35%;
+}
+#rose {
+  background-image: url("./images/rose.png");
+  background-size: 455px 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* transform: rotate(-2deg); */
+}
